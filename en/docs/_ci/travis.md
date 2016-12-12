@@ -32,6 +32,6 @@ For example:
 ```yaml
 sudo: false
 before_install:
-  - curl -o- -L https://yarnpkg.com/install.sh | bash
+  - curl -o -L https://yarnpkg.com/install.sh | bash
   - export PATH=$HOME/.yarn/bin:$PATH
 ```
